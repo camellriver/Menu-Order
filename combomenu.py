@@ -20,3 +20,15 @@ fries = input("yes or no:")
 if fries == "yes":
     cost = cost + 1.50
 print("current cost: $" + str(cost))
+
+# drink code
+
+print("drinks: super-grande $1.50, extra-small $1.00")
+drink = input("what drink you want:")
+if drink == "super-grande":
+    cost = cost + 1.50
+elif drink == "extra-small":
+    cost = cost + 1.00
+else:
+    print("we dont got that")
+print("current cost: $" + str(cost))
