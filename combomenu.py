@@ -32,3 +32,11 @@ elif drink == "extra-small":
 else:
     print("we dont got that")
 print("current cost: $" + str(cost))
+
+# ketchup packets code
+
+print("want ketchup packets? $0.25 each")
+packets = float(input("how many you want:"))
+packetcost = (packets * .25)
+cost = cost + packetcost
+print("current cost: $" + str(cost))
