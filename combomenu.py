@@ -14,3 +14,9 @@ elif order == "tofu":
 else:
     print("we aint got that")
 
+# fries code
+
+fries = input("yes or no:")
+if fries == "yes":
+    cost = cost + 1.50
+print("current cost: $" + str(cost))
