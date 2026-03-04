@@ -19,6 +19,10 @@ else:
 fries = input("do you want fries? yes or no:")
 if fries == "yes":
     cost = cost + 1.50
+    mega_size = input("do you want to mega-size? yes or no:")
+    if mega_size == "yes":
+        cost = cost + 1.00
+
 print("current cost: $" + str(cost))
 
 # drink code
