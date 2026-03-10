@@ -1,3 +1,11 @@
+# list code
+
+orders = ["", "", "", 0]
+sandwich_index = 0
+fries_index = 1
+drink_index = 2
+ketchup_index = 3
+
 # sandwich code
 
 print("sandwiches: chicken $2.95, beef $9.99, tofu $1.00")
@@ -50,3 +58,13 @@ if order in ["chicken", "beef", "tofu"] and fries == "yes" and drink in ["super-
     cost = cost - 1.00
     print("yay, you get $1.00 off")
 print("final cost: $" + str(cost))
+
+# list code
+
+orders[sandwich_index] = order
+orders[fries_index] = fries
+orders[drink_index] = drink
+orders[ketchup_index] = packets
+print("your order:")
+print(orders)
+
